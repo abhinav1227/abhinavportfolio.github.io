@@ -3,7 +3,7 @@
         grid-template-columns: 1fr;
     }
 
-    .portfolios{
+    .projects{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
@@ -15,6 +15,14 @@
 
     .section{
         padding: 2rem 2.5rem !important;
+    }
+
+    .sec5{
+        padding: 2rem 0.5rem !important;
+    }
+
+    .contact-content-con .left-contact .contact-info .contact-items .icon{
+        grid-template-columns: 20px 1fr;
     }
 
     .main-title{
@@ -58,7 +66,7 @@
         grid-template-columns: 1fr;
     }
 
-    .portfolios{
+    .projects{
         grid-template-columns: 1fr 1fr;
     }
 

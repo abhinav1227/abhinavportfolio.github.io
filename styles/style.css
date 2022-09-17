@@ -340,28 +340,28 @@ section {
   transform: translateX(-50%);
 }
 
-.port-text {
+.proj-text {
   padding: 2rem 0;
   text-align: center;
 }
 
-.portfolios {
+.projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
 }
-.portfolios .portfolio-item {
+.projects .project-item {
   position: relative;
 }
-.portfolios .portfolio-item img {
+.projects .project-item img {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
 }
-.portfolios .portfolio-item .hover-item {
+.projects .project-item .hover-item {
   width: 100%;
   height: 100%;
   background-color: var(--color-secondary);
@@ -377,12 +377,12 @@ section {
   transform: scale(0);
   transition: all 0.4s ease-in-out;
 }
-.portfolios .portfolio-item .hover-item h3 {
+.projects .project-item .hover-item h3 {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
-.portfolios .portfolio-item .hover-item .icons {
+.projects .project-item .hover-item .icons {
   background-color: var(--color-primary);
   border-radius: 50%;
   width: 50px;
@@ -394,32 +394,32 @@ section {
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
-.portfolios .portfolio-item .hover-item .icons i {
+.projects .project-item .hover-item .icons i {
   font-size: 1.5rem;
   color: var(--color-white);
   margin: 0 1rem;
 }
-.portfolios .portfolio-item .hover-item .icons:hover {
+.projects .project-item .hover-item .icons:hover {
   background-color: var(--color-white);
 }
-.portfolios .portfolio-item .hover-item .icons:hover i {
+.projects .project-item .hover-item .icons:hover i {
   color: var(--color-primary);
 }
-.portfolios .portfolio-item p {
+.projects .project-item p {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
-.portfolios .portfolio-item p ul {
+.projects .project-item p ul {
   margin: 2em;
   list-style-type: disc;
 }
-.portfolios .portfolio-item p ul li {
+.projects .project-item p ul li {
   list-style: disc outside none;
   display: list-item;
   margin-left: 2em;
 }
 
-.portfolio-item:hover .hover-item {
+.project-item:hover .hover-item {
   opacity: 1;
   transform: scale(1);
 }
@@ -652,7 +652,7 @@ section {
   .about-container {
     grid-template-columns: 1fr;
   }
-  .portfolios {
+  .projects {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
@@ -662,6 +662,12 @@ section {
   }
   .section {
     padding: 2rem 2.5rem !important;
+  }
+  .sec5 {
+    padding: 2rem 0.5rem !important;
+  }
+  .contact-content-con .left-contact .contact-info .contact-items .icon {
+    grid-template-columns: 20px 1fr;
   }
   .main-title h2 {
     font-size: 2rem;
@@ -699,7 +705,7 @@ section {
   .about-container {
     grid-template-columns: 1fr;
   }
-  .portfolios {
+  .projects {
     grid-template-columns: 1fr 1fr;
   }
   .blogs {
